@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    width: 100%;
+    height: auto;
+    background-color: rgb(70, 64, 64);
+}
+
+
+body > .container-triqui {
+width:100% ;
+height: 54px;
+background-color: rgb(109, 124, 124);
+}
+
+
+ .title1 {
+    color: brown;
+    margin-top: 1em;
+    margin-left: 37rem;
+    justify-content: center;
+    font-size: 34px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding: 1em;
+
+
+}
+.button2 {
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
+    grid-gap: 10px; 
+}
+  
+  .button {
+    width:88%;
+    height: 154px;
+    font-size: 15px;
+    margin: 0;
+    padding: 0;
+    margin-left:38%;
+    justify-content: center;
+    align-items: center;  
+    margin-left: 20px;  }
+
+
+  
